@@ -117,7 +117,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <section id="home" className="hero-section">
         <div className="content text-center animate-fade-in-up">
-          <h1 className="text-6xl font-extrabold mb-6 animate-bounce-in">Welcome to My Portfolio</h1>
+          <h1 className="text-6xl font-extrabold mb-6 animate-bounce-in">NotKoneko's Portfolio</h1>
           <p className="text-lg mb-8 animate-fade-in text-gray-300 max-w-xl mx-auto">
             I'm Koneko, a Computer Science student with a passion for AI and Machine Learning.
           </p>
@@ -142,10 +142,13 @@ const HomePage = () => {
       {/* About Section */}
       <section id="about" className="py-20 bg-gray-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-6 text-center">About Me</h2>
+          <h2 className="text-4xl font-bold mb-6 text-center">Info</h2>
           <p className="text-center max-w-2xl mx-auto text-gray-300">
-            Hello! I'm Koneko, a Computer Science student at Gavilan College with a passion for machine learning and AI.
-            I'm currently focusing on front-end development and plan to transfer to UT Austin to dive deeper into AI.
+          Hello! I'm Koneko, a Computer Science major focusing on Machine Learning. 
+          This is my faceless website—a space to showcase my skills, projects, 
+          and interests while keeping my identity more anonymous than a conventional Portfolio. The goal of this 
+          platform is to serve as an information hub, reflecting my passion for technology 
+          and learning without revealing my true identity.
           </p>
         </div>
       </section>
@@ -194,7 +197,7 @@ const HomePage = () => {
           <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
           <p className="mb-4">Feel free to reach out if you have any questions or collaboration ideas!</p>
           <a
-            href="mailto:example@example.com"
+            href="mailto:NottKoneko@protonmail.com"
             className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg transition duration-300"
           >
             Send an Email

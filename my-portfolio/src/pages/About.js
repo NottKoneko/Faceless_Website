@@ -59,7 +59,7 @@ const About = () => {
               <FaGithub size={30} />
             </a>
             <a
-              href="mailto:michael@example.com"
+              href="mailto:NottKoneko@protonmail.com"
               className="hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
@@ -83,7 +83,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
           <p>If you'd like to collaborate on a project or just have a chat, feel free to reach out!</p>
           <a
-            href="mailto:michael@example.com"
+            href="mailto:NottKoneko@protonmail.com"
             className="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-full transition duration-300"
           >
             Send an Email

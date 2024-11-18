@@ -35,7 +35,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">My Portfolio</h1>
+        <h1 className="text-2xl font-bold">NotKoneko</h1>
         <ul className="flex space-x-6">
           <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
           <li><Link to="/projects" className="hover:text-gray-400">Projects</Link></li>
