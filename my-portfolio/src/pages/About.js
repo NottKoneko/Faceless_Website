@@ -128,6 +128,12 @@ const About = () => {
               <FaDiscord size={30} />
               <span className="text-sm mt-2">Discord</span>
             </a>
+
+            {/* YouTube */}
+            <a href="https://youtube.com/channel/yourchannel" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-blue-500 transition duration-300">
+              <FaYoutube size={30} />
+              <span className="text-sm mt-2">YouTube</span>
+            </a>
           </div>
         </section>
 
