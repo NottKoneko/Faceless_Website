@@ -59,15 +59,7 @@ const About = () => {
               <FaGithub size={30} />
             </a>
             <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-500 transition duration-300"
-            >
-              <FaLinkedin size={30} />
-            </a>
-            <a
-              href="mailto:michael@example.com"
+              href="mailto:XXXXXX@example.com"
               className="hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
