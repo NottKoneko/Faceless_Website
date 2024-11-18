@@ -8,7 +8,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <BrowserRouter basename="/Faceless_Website">
+    <Router>
       <div className="bg-gray-900 min-h-screen">
         <Navbar />
         <Routes>
@@ -19,7 +19,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-      </BrowserRouter>
+    </Router>
   );
 }
 
