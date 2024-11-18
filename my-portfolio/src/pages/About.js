@@ -59,14 +59,6 @@ const About = () => {
               <FaGithub size={30} />
             </a>
             <a
-              href="https://linkedin.com/in/michael-martinez-3a0029188"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-500 transition duration-300"
-            >
-              <FaLinkedin size={30} />
-            </a>
-            <a
               href="mailto:michael@example.com"
               className="hover:text-blue-500 transition duration-300"
             >
