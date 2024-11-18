@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaArrowUp } from 'react-icons/fa';
+import { FaGithub, FaArrowUp } from 'react-icons/fa';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -18,14 +18,6 @@ const Footer = () => {
             className="hover:text-white transition-colors duration-300"
           >
             <FaGithub size={24} />
-          </a>
-          <a
-            href="https://linkedin.com/in/michael-martinez-3a0029188"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white transition-colors duration-300"
-          >
-            <FaLinkedin size={24} />
           </a>
         </div>
 
