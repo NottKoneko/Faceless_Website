@@ -69,7 +69,7 @@ const About = () => {
               <FaCode size={30} />
               <span className="text-sm mt-2">LeetCode</span>
             </a>
-            {/* Twitter Link */}z
+            {/* Twitter Link */}
             <a
               href="https://twitter.com/NottKoneko"
               target="_blank"
@@ -86,7 +86,7 @@ const About = () => {
               className="flex flex-col items-center hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
-              <span className="text-sm mt-2">General Email</span>
+              <span className="text-sm mt-2">General</span>
             </a>
 
             {/* Secondary Email Link */}
@@ -95,7 +95,7 @@ const About = () => {
               className="flex flex-col items-center hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
-              <span className="text-sm mt-2">Business Email</span>
+              <span className="text-sm mt-2">Business</span>
             </a>
 
             {/* Third Email Link */}
@@ -104,7 +104,7 @@ const About = () => {
               className="flex flex-col items-center hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
-              <span className="text-sm mt-2">Questions Email</span>
+              <span className="text-sm mt-2">Questions</span>
             </a>
 
             {/* Portfolio Link */}
