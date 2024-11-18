@@ -57,12 +57,67 @@ const About = () => {
               className="hover:text-blue-500 transition duration-300"
             >
               <FaGithub size={30} />
+              <span className="text-sm mt-2">GitHub</span>
             </a>
+
+            {/* Twitter Link */}z
+            <a
+              href="https://twitter.com/NottKoneko"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
+            >
+              <FaTwitter size={30} />
+              <span className="text-sm mt-2">Twitter</span>
+            </a>
+
+            {/* Primary Email Link */}
             <a
               href="mailto:NottKoneko@protonmail.com"
-              className="hover:text-blue-500 transition duration-300"
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
+              <span className="text-sm mt-2">General Email</span>
+            </a>
+
+            {/* Secondary Email Link */}
+            <a
+              href="mailto:yoursecondemail@example.com"
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
+            >
+              <FaEnvelope size={30} />
+              <span className="text-sm mt-2">Business Email</span>
+            </a>
+
+            {/* Third Email Link */}
+            <a
+              href="mailto:yourthirdemail@example.com"
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
+            >
+              <FaEnvelope size={30} />
+              <span className="text-sm mt-2">Questions Email</span>
+            </a>
+
+            {/* Portfolio Link */}
+            <a
+              href="https://notkoneko.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
+            >
+              <FaGlobe size={30} />
+              <span className="text-sm mt-2">Portfolio</span>
+            </a>
+
+            {/* Discord Link */}
+            <a
+              href="https://discord.gg/RaPtkuXFhh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
+            >
+              <FaDiscord size={30} />
+              <span className="text-sm mt-2">Discord</span>
             </a>
           </div>
         </section>
