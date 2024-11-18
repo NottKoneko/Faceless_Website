@@ -59,13 +59,18 @@ const About = () => {
               href="https://github.com/NottKoneko"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-500 transition duration-300"
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
             >
               <FaGithub size={30} />
               <span className="text-sm mt-2">GitHub</span>
             </a>
             {/* LeetCode */}
-            <a href="https://leetcode.com/yourprofile" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-blue-500 transition duration-300">
+            <a 
+              href="https://leetcode.com/yourprofile" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex flex-col items-center hover:text-blue-500 transition duration-300"
+              >
               <FaCode size={30} />
               <span className="text-sm mt-2">LeetCode</span>
             </a>
