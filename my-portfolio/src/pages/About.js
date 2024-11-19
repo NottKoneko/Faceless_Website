@@ -16,11 +16,22 @@ const About = () => {
         {/* Bio Section */}
         <section className="mb-12 bg-gray-800 p-6 rounded-lg shadow-lg">
           <p>
-            Hello! I'm Koneko, a Computer Science student at Gavilan College with a passion for machine learning and AI.
-            I am currently enhancing my front-end development skills and aiming to transfer to UT Austin for deeper studies in AI.
+            Hi there! I’m Koneko, a passionate Computer Science student with a deep interest in artificial intelligence and its potential to change the world. My journey in tech started early—coding fascinated me as far back as elementary school. Over the years, this passion evolved into a focus on AI, particularly its potential in medicine, reinforcement learning, and natural language processing.
           </p>
           <p className="mt-4">
-            Outside of coding, I enjoy gaming, anime, and exploring the latest trends in technology. I believe in continuous learning and strive to expand my knowledge in AI and machine learning to create impactful projects.
+            I aspire to join UT Austin, a top-tier university that aligns with my goals of diving deeper into AI and contributing to meaningful advancements in the field. Looking further ahead, I dream of working at innovative companies like NVIDIA, Apple, or OpenAI—or even collaborating with medical research teams to push boundaries in regenerative medicine and biocomputing.
+          </p>
+          <p className="mt-4">
+            Some of my most exciting projects include a Discord bot that’s become a daily essential for me, an AI-powered trading bot that taught me the joys of complex problem-solving, and an AI image generator. I’m currently working on an e-commerce website, which I’m excited to bring to life. Among my skills, Python stands out as my strongest tool—I’ve used it for personal scripts, AI models, and practical projects that streamline everyday tasks.
+          </p>
+          <p className="mt-4">
+            Beyond tech, I draw inspiration from anime like <em>Charlotte</em>, which deepened my appreciation for memories and the connections I share with loved ones. This has also shaped my personal values and fueled my drive to help others through technology. I’m fascinated by advancements in biocomputing and how scientists are using AI to map neural structures like a fly’s brain—an achievement that, if scaled to humans, could revolutionize our understanding of the brain and mental illnesses.
+          </p>
+          <p className="mt-4">
+            At my core, I’m driven by curiosity and a belief in lifelong learning. I’m excited by the idea of pushing the limits of what’s possible, whether it’s creating streamlined technologies to enhance everyday life or unlocking the next breakthrough in medicine. I’m also planning to pursue a PhD at Stanford, where I hope to deepen my expertise and contribute to groundbreaking research.
+          </p>
+          <p className="mt-4">
+            If you’re interested in discussing AI, technology, gaming, or even anime, let’s connect! I’d love to exchange ideas and collaborate on exciting new projects.
           </p>
         </section>
 
@@ -50,7 +61,7 @@ const About = () => {
             ))}
           </div>
         </section>
-        
+
         {/* Useful Links Section */}
         <section className="mb-12 bg-gray-800 p-6 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold mb-6">Useful Links</h2>
@@ -110,14 +121,14 @@ const About = () => {
               <span className="text-sm mt-2">General</span>
             </a>
             <a
-              href="mailto:yoursecondemail@example.com"
+              href="mailto:Business@notkoneko.com"
               className="flex flex-col items-center hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
               <span className="text-sm mt-2">Business</span>
             </a>
             <a
-              href="mailto:yourthirdemail@example.com"
+              href="mailto:Ask@notkoneko.com"
               className="flex flex-col items-center hover:text-blue-500 transition duration-300"
             >
               <FaEnvelope size={30} />
